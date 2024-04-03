@@ -1,0 +1,162 @@
+---
+title: "problem set 3"
+author: "Yoselin Monterroso"
+format: html
+editor: visual
+---
+
+1.  You may complete this problem set in R or by hand.
+
+2.  In either case, you must work through all the steps.
+
+3.  You may use the worksheet to show your work or you may produce a document using R Studio that shows the code and results for each step in the worksheet.
+
+4.  The format is up to you, as long as all steps are shown.
+
+5.  Complete these items from the worksheet for all sequences of numbers: sum, n, n-1, mean, median, mode (if there is one), sum of squared differences from the mean, sample variance, sample standard deviation, population variance, population standard deviation. 
+
+6.  Sequences:
+
+-   -1.207, 0.277, 1.084, -2.346, 0.429, 0.506, -0.575, -0.547
+
+    1.  sum 
+    set1 = c(-1.207, 0.277, 1.084, -2.346, 0.429, 0.506, -0.575, -0.547)
+    sum1 = sum(set1)
+    sum1 = -2.379
+
+    1.  n
+    n1 = length(set1)
+    n1 = 8
+    
+    2.  n-1
+    n_1 = n1-1
+    n_1 = 7
+
+    3.  mean
+    meanset1 = (sum1)/n1
+    meanset1 = -0.297375
+
+    4.  median
+    medianset1 = median(set1)
+    medianset1 = -0.135
+
+    5.  mode (if there is one)
+    modeset1 = mode(set1)
+    modeset1 = N/a
+
+    6.  sum of squared differences from the mean
+    sqrt(sum1 - meanset1)
+    answer = 4.3332
+
+    7.  sample variance
+    sqrt(sum1 - meanset1)/n_1
+    answer = -0.6190
+
+    8.  sample standard deviation
+    sqrt(sqrt(sum1 - meanset1)/n_1)
+    answer = 0.383161
+
+    9.  population variance
+    sqrt(sum1 - meanset1)/n1
+    answer = 0.54165
+
+    10. population standard deviation.
+    sqrt(sqrt(sum1 - meanset1)/n1)
+    answer = 0.29338
+    
+
+-   124.72, 124.55, 124.76, 124.50, 124.61, 125.03, 125.48, 124.94, 124.74
+
+1.  sum
+set2 = c(124.72, 124.55, 124.76, 124.50, 124.61, 125.03, 125.48, 124.94, 124.74)
+sumset2 = sum(set2)
+sumset2 = 1123.33
+
+2.  n
+length(set2)
+n2 = 9
+
+3.  n-1
+n2 - 1
+n_2 = 8
+
+4.  mean
+(sumset2)/n2
+meanset2 = 124.8144
+
+5.  median
+median(set2)
+medianset2 = 124.74
+
+6.  mode (if there is one)
+mode(set2)
+modeset2 = N/a
+
+7.  sum of squared differences from the mean
+sqrt(sumset2 - meanset2)
+answer= 31.5993
+
+8.  sample variance
+sqrt(sumset2 - meanset2)/n_2
+answer = 3.949912
+
+9.  sample standard deviation
+sqrt(sqrt(sumset2 - meanset2)/n_2)
+answer = 1.987439
+
+10. population variance
+sqrt(sumset2 - meanset2)/n2
+answer = 3.511033
+
+11. population standard deviation
+sqrt(sqrt(sumset2 - meanset2)/n2)
+answer = 1.873775
+
+
+-   70, 71, 87, 76, 73, 73, 77, 72, 68, 78, 70, 75
+
+1.  sum
+set3 = c(70, 71, 87, 76, 73, 73, 77, 72, 68, 78, 70, 75)
+sumset3 = sum(set3)
+sumset3 = 890
+
+2.  n
+length(set3)
+n3 = 12
+
+3.  n-1
+n3 - 1 
+n_3 = 11
+
+4.  mean
+(sumset3)/n3
+meanset3 = 74.16667
+
+5.  median
+median(set3)
+medianset3 = 73
+
+6.  mode (if there is one)
+mode(set3)
+mode = (70,73)
+
+7.  sum of squared differences from the mean,
+sqrt(sumset3 - meanset3)
+answer = 28.5628
+
+8.  sample variance,
+sqrt(sumset3 - meanset3)/n_3
+answer = 2.596618
+
+9.  sample standard deviation,
+sqrt(sqrt(sumset3 - meanset3)/n_3)
+answer = 1.611402
+
+10. population variance
+sqrt(sumset3 - meanset3)/n3
+answer = 2.380233
+
+11. population standard deviation
+sqrt(sqrt(sumset3 - meanset3)/n3)
+answer = 1.5428
+
